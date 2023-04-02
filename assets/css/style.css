@@ -28,6 +28,10 @@ body {
   padding: 10px 20px;
 }
 
+.hide {
+  display: none;
+}
+
 /* Header */
 header {
   background-color: #2C3333;
@@ -78,14 +82,15 @@ h2 {
 }
 
 .check {
-  margin-top: 100px;
   text-align: center;
+  margin-top: 100px;
 }
 
-.hide {
-  display: none;
+.message {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 100px;
 }
 
-.hide2 {
-  opacity: 0;
-}
